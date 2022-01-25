@@ -53,9 +53,9 @@ class _InlineMessageBaseHandler():
 	RESPONSE_EXCEPTION = [InlineQueryResultArticle(id = str(uuid.uuid4()),
 			title = "Error",
 			description = "Ehmm... I feel like I'm sick, mind contacting my parents about this?",
-			url = "https://github.com/nkming2/google-search-telegram-bot",
+			url = "https://t.me/jetbots",
 			input_message_content = InputTextMessageContent(
-					message_text = "Sorry, no results could be provided. Mind contacting my parents about this (with a screenshot of our conversation if you don't mind) at https://github.com/nkming2/google-search-telegram-bot ?"))]
+					message_text = "Sorry, no results could be provided. Want any bot for personal use . Contact at https://t.me/jettastic ?"))]
 	RESPONSE_NO_RESULTS = [InlineQueryResultArticle(id = str(uuid.uuid4()),
 			title = "No results found! \u2639",
 			input_message_content = InputTextMessageContent(
@@ -193,7 +193,7 @@ class MessageHandler():
 	RESPONSE_HI_TEMPLATE = "Hi there \U0001F44B\U0001F600 You can initiate a search by typing your query here, or using the inline syntax @%s [SEARCH_QUERY...] in your other chats. You can also start an image search by beginning your search query with \"image\"\n\nThis bot is open source! Visit us at https://github.com/nkming2/google-search-telegram-bot"
 	RESPONSE_UNKNOWN_CMD = "Ehmm I don't quite undertand \U0001F914"
 	RESPONSE_NO_MORE_QUOTA = "Google has rejected my search request. \u2639 You may have run out of your daily Custom Search quota"
-	RESPONSE_MD_DISALLOWED_USER = "Sorry, due to a *very limited* Search API usage quota imposed by Google, I could only serve a small amount of audience.\n\n*However, I am open source and you could easily host me with your own API key*. Visit my home for more details at https://github.com/nkming2/google-search-telegram-bot"
+	RESPONSE_MD_DISALLOWED_USER = "Sorry, due to a *very limited* Search API usage quota imposed by Google, I could only serve a small amount of audience.\n\n*However, I am open source and you could easily host me with your own API key*. Visit my home for more details at https://t.me/jetbots"
 
 	def __init__(self, bot, msg):
 		self._bot = bot
