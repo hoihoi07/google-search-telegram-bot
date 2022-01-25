@@ -1,7 +1,7 @@
 {
-	"telegram_bot_token": "",
-	"google_api_key": "",
-	"search_engine_id": "",
+	"telegram_bot_token": "5221704179:AAEbKYV5sdtzwXh_-80_OX9_L62zUD6FsJQ",
+	"google_api_key": "AIzaSyD0E1ZVm0epVmXJb-F4u5meFUKIvuKJmPM",
+	"search_engine_id": "eb439a626dbadf218",
 	"allow_only_users": [],
 	"paw_app": {
 		"url": "https://YOUR_PYTHONANYWHERE_USERNAME.pythonanywhere.com",
